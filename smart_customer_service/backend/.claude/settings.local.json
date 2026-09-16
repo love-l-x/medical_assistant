@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.venv/Scripts/python.exe -c \"import sqlalchemy; print\\('sqlalchemy', sqlalchemy.__version__\\)\")",
+      "Bash(./.venv/Scripts/python.exe -c \"import mysql.connector; print\\('mysql.connector ok'\\)\")",
+      "Read(//d/Project/smart_customer_service/backend/.venv/Scripts/**)",
+      "Bash(\"C:\\\\Users\\\\29877\\\\Desktop\\\\项目实验基地\\\\smart_customer_service\\\\backend\\\\.venv\\\\Scripts\\\\python.exe\" -m pip list)",
+      "Bash(\"D:\\\\Project\\\\smart_customer_service\\\\backend\\\\.venv\\\\Scripts\\\\python.exe\" -m pip list)",
+      "Bash(\"D:\\\\Project\\\\smart_customer_service\\\\backend\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\29877\\\\Desktop\\\\项目实验基地\\\\smart_customer_service\\\\backend\\\\main.py\")",
+      "Bash('D:\\\\Project\\\\smart_customer_service\\\\backend\\\\.venv\\\\Scripts\\\\python.exe' -c ':*)"
+    ]
+  }
+}
